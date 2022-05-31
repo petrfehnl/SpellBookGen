@@ -5,8 +5,8 @@ Console.WriteLine("Generátor náhodných spellů");
 List<Spell> seznamSpellu = new List<Spell>();
 HelperClass pomocneMetody = new HelperClass();
 
-string[] index1 = pomocneMetody.PoleZTextu("txt/spellform.txt");
-string[] index2 = pomocneMetody.PoleZTextu("txt/spelltypes.txt");
+string[] index1 = pomocneMetody.PoleZTextu("../../../txt/spellform.txt");
+string[] index2 = pomocneMetody.PoleZTextu("../../../txt/spelltypes.txt");
 
 while (true)
 {
